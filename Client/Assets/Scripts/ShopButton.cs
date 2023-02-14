@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,9 +14,10 @@ public enum Units
 
 public class ShopButton : MonoBehaviour
 {
-    List<Units> _handList = new List<Units>();
+    
     List<Units> _shopList = new List<Units>();
-   
+    public Hand hand;
+
     public void Roll()
     {
         // 리스트를 Roll
@@ -33,14 +32,14 @@ public class ShopButton : MonoBehaviour
         }
     }
 
-    public void Renew(int i)
+    public void Renew(int index)
     {
         //이미지 교체
-        GameObject go = transform.GetChild(i + 1).GetChild(0).gameObject;
+        GameObject go = transform.GetChild(index + 1).GetChild(0).gameObject;
         Image bn = go.GetComponent<Image>();
         // 이부분은 나중에
         // Units에 따라 해당 이미지로 이미지를 변경
-        switch (_shopList[i])
+        switch (_shopList[index])
         {
             case Units.Null:
                 bn.color = Color.green;
@@ -64,33 +63,27 @@ public class ShopButton : MonoBehaviour
 
     }
 
-    public void Buy(int i)
+    public void Buy(int index)
     {
-        if (_shopList[i] == 0)
+        if (hand._handList.Count >=9 )
+        {
+            Debug.Log($"손이 꽉찼습니다.");
+            return;
+        }
+
+        if (_shopList[index] == 0)
         {
             Debug.Log($"이미 팔린 상품");
             return;
         }
             
-        _handList.Add(_shopList[i]);
-        _shopList[i] = Units.Null;
-        Renew(i);
-
-        // 구매 버튼을 눌렀을때 해당 항목을
-        // 내 손패 리스트에 add하고
-        // 해당 항목은 null로 바꿈
-        // 이미지를 지운다.
-        // 항목이 이미 null일때는 눌러도 작동하지 않아야된다.
-
+        hand.AddHand(_shopList[index]);
+        _shopList[index] = Units.Null;
+        Renew(index);
     }
     void Start()
     {
+        hand = GameObject.Find("Hand").GetComponent<Hand>();
         Roll();
     }
-
-    void Update()
-    { 
-        
-    }
-
 }

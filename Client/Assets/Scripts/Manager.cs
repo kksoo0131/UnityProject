@@ -9,12 +9,13 @@ public class Manager : MonoBehaviour
     static Manager s_instance;
     public static Manager Instance { get { return s_instance; } }
 
+    
+
     void Start()
     {
     }
 
     void Update()
     {
-        
     }
 }
