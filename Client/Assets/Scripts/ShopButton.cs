@@ -65,18 +65,10 @@ public class ShopButton : MonoBehaviour
 
     public void Buy(int index)
     {
-        if (hand._handList.Count >=9 )
+        if (hand._hand.Count >=9 || _shopList[index] == 0)
         {
-            Debug.Log($"º’¿Ã ≤À√°Ω¿¥œ¥Ÿ.");
             return;
-        }
-
-        if (_shopList[index] == 0)
-        {
-            Debug.Log($"¿ÃπÃ ∆»∏∞ ªÛ«∞");
-            return;
-        }
-            
+        }            
         hand.AddHand(_shopList[index]);
         _shopList[index] = Units.Null;
         Renew(index);

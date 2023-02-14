@@ -15,11 +15,11 @@ C:/Users/Kks/source/repos/UnityProject/Client
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52587
+59288
 Successfully changed project path to: C:/Users/Kks/source/repos/UnityProject/Client
 C:/Users/Kks/source/repos/UnityProject/Client
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,118 +35,40 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002201 seconds.
+Registered in 0.002266 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 26.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
+- Completed reload, in  1.095 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004068 seconds.
+Registered in 0.004248 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
+- Completed reload, in  0.924 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.4 MB.
-System memory in use after: 67.4 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1822.
-Total: 1.572100 ms (FindLiveObjects: 0.132100 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.344200 ms  DeleteObjects: 0.060700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Resources/red.mat
-  artifactKey: Guid(d057d0cb7a86dac40b2816a2f30e333d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/red.mat using Guid(d057d0cb7a86dac40b2816a2f30e333d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ef185d39855124c6fa8e09f66ed89c') in 0.095089 seconds 
-  Import took 0.097233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Resources/blue.mat
-  artifactKey: Guid(5b7beebb4baaacf4dbd9e37b4154a2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/blue.mat using Guid(5b7beebb4baaacf4dbd9e37b4154a2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5908b16f50078d111b23ff86de6a8bb') in 0.013992 seconds 
-  Import took 0.015893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Resources/cyan.mat
-  artifactKey: Guid(6f2c68a6b5c34694da93156df1f714bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/cyan.mat using Guid(6f2c68a6b5c34694da93156df1f714bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ed4b45fb60538740beb14153c97798') in 0.013671 seconds 
-  Import took 0.015554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Resources/yellow.mat
-  artifactKey: Guid(006a11983998d7448b284096c975744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/yellow.mat using Guid(006a11983998d7448b284096c975744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e381570bcaa604c811534b0086ccdb') in 0.013512 seconds 
-  Import took 0.015668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Resources/black.mat
-  artifactKey: Guid(75f8d78c08727e247adcf6743c864ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/black.mat using Guid(75f8d78c08727e247adcf6743c864ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0131ccf0d3bf0206a79728bb540a4dc') in 0.011691 seconds 
-  Import took 0.013545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.061871 seconds.
-  path: Assets/Scripts/Hand.cs
-  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a84d6ded6c0bbd49e9c59d2b944ea') in 0.009423 seconds 
-  Import took 0.011623 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004000 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Platform modules already initialized, skipping
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.7 MB.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1866.
-Total: 1.856900 ms (FindLiveObjects: 0.142900 ms CreateObjectMapping: 0.029100 ms MarkObjects: 1.643800 ms  DeleteObjects: 0.040000 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1823.
+Total: 1.792000 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.513700 ms  DeleteObjects: 0.082900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -159,25 +81,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ec46606617023004b3ac785d49365a') in 0.038163 seconds 
+  Import took 0.040297 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005238 seconds.
+Registered in 0.004766 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  0.799 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
+System memory in use before: 67.3 MB.
+System memory in use after: 67.4 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1869.
-Total: 2.107400 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.790000 ms  DeleteObjects: 0.070100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1826.
+Total: 1.685200 ms (FindLiveObjects: 0.133100 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.472400 ms  DeleteObjects: 0.044600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -191,56 +120,1485 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 304.282619 seconds.
+  Time since last request: 374.868230 seconds.
   path: Assets/Scripts/Hand.cs
   artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da5bd990a4c9fae9012a17d06e8a2ba') in 0.005596 seconds 
-  Import took 0.008604 seconds .
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd09b75374eab224b990d6b866e24c78') in 0.003662 seconds 
+  Import took 0.005885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 189.790946 seconds.
-  path: Assets/Scripts/Manager.cs
-  artifactKey: Guid(483096899c3c62340a4b5ef59c09eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager.cs using Guid(483096899c3c62340a4b5ef59c09eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c568792c02c82c9e17f1b0583e71a271') in 0.004696 seconds 
-  Import took 0.006842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.135696 seconds.
-  path: Assets/Scripts/Manager.cs
-  artifactKey: Guid(483096899c3c62340a4b5ef59c09eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager.cs using Guid(483096899c3c62340a4b5ef59c09eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c568792c02c82c9e17f1b0583e71a271') in 0.001868 seconds 
-  Import took 0.003940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.613668 seconds.
-  path: Assets/Scripts/ShopButton.cs
-  artifactKey: Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ShopButton.cs using Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcf4e3043d821280947b2f6cac82420') in 0.007645 seconds 
-  Import took 0.009962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025532 seconds.
-  path: Assets/Scripts/ShopButton.cs
-  artifactKey: Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ShopButton.cs using Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcf4e3043d821280947b2f6cac82420') in 0.003376 seconds 
-  Import took 0.006219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 276.599067 seconds.
-  path: Assets/Scripts/ShopButton.cs
-  artifactKey: Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ShopButton.cs using Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9129e1e990c238c49abae7962dcc443') in 0.002866 seconds 
-  Import took 0.005580 seconds .
+  Time since last request: 0.865849 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd09b75374eab224b990d6b866e24c78') in 0.001968 seconds 
+  Import took 0.004114 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005484 seconds.
+Registered in 0.006185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1829.
+Total: 1.936500 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.061600 ms MarkObjects: 1.574100 ms  DeleteObjects: 0.046600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150.311879 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9c9c38f12996df763eab5cab1e8346') in 0.003937 seconds 
+  Import took 0.005987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.874206 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9c9c38f12996df763eab5cab1e8346') in 0.001827 seconds 
+  Import took 0.003822 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1832.
+Total: 1.587400 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.365400 ms  DeleteObjects: 0.043700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.385115 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851dc18def6a351ce3c3e8c7d5c366a4') in 0.004008 seconds 
+  Import took 0.005973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410527 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851dc18def6a351ce3c3e8c7d5c366a4') in 0.002129 seconds 
+  Import took 0.004323 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.687718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.827 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1835.
+Total: 1.757400 ms (FindLiveObjects: 0.173500 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.504300 ms  DeleteObjects: 0.047200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.857 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1838.
+Total: 1.936000 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.668200 ms  DeleteObjects: 0.052200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 195.906598 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001174 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051301 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000343 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019237 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000359 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014782 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000304 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012539 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000294 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012454 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000278 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015857 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000313 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016057 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000260 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012393 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000256 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013901 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000256 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012608 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000324 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012743 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000316 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014815 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000336 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012937 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000316 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012793 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000488 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013611 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000284 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011994 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012946 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000288 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017271 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013272 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000261 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012344 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000259 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013116 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000320 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012602 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000286 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011171 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000327 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012283 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000311 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016222 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000307 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014074 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000374 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017548 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000508 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015178 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000257 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013216 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000311 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012875 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000258 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012967 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000282 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019769 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000305 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012341 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000249 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012723 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000293 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013862 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000264 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013642 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000265 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012157 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000263 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013664 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000289 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011215 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011466 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013776 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000259 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011107 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000260 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010981 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000269 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012644 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000280 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010948 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011344 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000252 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013025 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000333 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010965 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000283 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011431 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000296 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011171 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000254 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013105 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000302 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011451 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000275 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010995 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000252 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013046 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000327 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010731 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000270 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012108 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000279 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014448 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000297 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012299 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000311 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012227 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000413 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013746 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000347 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011403 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000287 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011578 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000305 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011185 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000282 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012948 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000349 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010837 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000272 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010812 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000302 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012914 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011160 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000272 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011306 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000327 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011623 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013076 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000287 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010765 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000277 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011238 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000252 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014454 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000300 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013415 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000252 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011015 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000362 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010739 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000302 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012788 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000282 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011619 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000257 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010857 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000277 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013204 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000259 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011889 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000258 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011815 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000266 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013361 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000297 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011844 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011450 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000280 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.002172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012713 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000263 seconds  code(4) message(Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z')
+  ERROR: Build asset version error: assets/scripts/hand.cs in SourceAssetDB has modification time of '2023-02-14T03:35:16.9321569Z' while content on disk has modification time of '2023-02-14T03:35:22.7201982Z'
+  Import took 0.001953 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1841.
+Total: 1.566200 ms (FindLiveObjects: 0.123800 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.368400 ms  DeleteObjects: 0.043100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3.133009 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff8ada0c136b0ec0274e12bb3d32661') in 0.006548 seconds 
+  Import took 0.008702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.873513 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff8ada0c136b0ec0274e12bb3d32661') in 0.002024 seconds 
+  Import took 0.004014 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1844.
+Total: 1.655300 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.432600 ms  DeleteObjects: 0.045000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 1.795100 ms (FindLiveObjects: 0.149000 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.565400 ms  DeleteObjects: 0.044500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.772794 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59d13f49693d7768c0765aa0dbf8524') in 0.004077 seconds 
+  Import took 0.006168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.891919 seconds.
+  path: Assets/Scripts/Hand.cs
+  artifactKey: Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hand.cs using Guid(ab7562d90209ca74b8e8d1495171dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59d13f49693d7768c0765aa0dbf8524') in 0.001997 seconds 
+  Import took 0.004245 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 1.726900 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.450200 ms  DeleteObjects: 0.046400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1853.
+Total: 1.832300 ms (FindLiveObjects: 0.143100 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.608800 ms  DeleteObjects: 0.046900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004944 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1856.
+Total: 2.214700 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.979400 ms  DeleteObjects: 0.052700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1859.
+Total: 1.676800 ms (FindLiveObjects: 0.154900 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.445100 ms  DeleteObjects: 0.045500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1862.
+Total: 1.813200 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.516600 ms  DeleteObjects: 0.063600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1865.
+Total: 1.789600 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.510400 ms  DeleteObjects: 0.047400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1868.
+Total: 2.033500 ms (FindLiveObjects: 0.161200 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.745600 ms  DeleteObjects: 0.092500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1871.
+Total: 1.771700 ms (FindLiveObjects: 0.150600 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.541100 ms  DeleteObjects: 0.045700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1874.
+Total: 1.789600 ms (FindLiveObjects: 0.187100 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.517000 ms  DeleteObjects: 0.050700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 1.790100 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.524400 ms  DeleteObjects: 0.074600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 1.719100 ms (FindLiveObjects: 0.144700 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.493000 ms  DeleteObjects: 0.047700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004584 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1883.
+Total: 1.927800 ms (FindLiveObjects: 0.173000 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.675900 ms  DeleteObjects: 0.046900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7797.909792 seconds.
+  path: Assets/Scripts/ShopButton.cs
+  artifactKey: Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShopButton.cs using Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c6d6392c4ac73ca6690fef8df607ca') in 0.008096 seconds 
+  Import took 0.010543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020294 seconds.
+  path: Assets/Scripts/ShopButton.cs
+  artifactKey: Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShopButton.cs using Guid(4e25c47ae1dd5de49b6fed23487ec41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c6d6392c4ac73ca6690fef8df607ca') in 0.002079 seconds 
+  Import took 0.004302 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004625 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -249,14 +1607,14 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.824 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1872.
-Total: 1.856800 ms (FindLiveObjects: 0.121200 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.660500 ms  DeleteObjects: 0.045000 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 1.723700 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.497200 ms  DeleteObjects: 0.047400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -271,85 +1629,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004700 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.816 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1875.
-Total: 1.724800 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.487000 ms  DeleteObjects: 0.048600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005202 seconds.
+Registered in 0.004309 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1878.
-Total: 1.638400 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.426500 ms  DeleteObjects: 0.044700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004714 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
+- Completed reload, in  0.780 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1881.
-Total: 1.910700 ms (FindLiveObjects: 0.133700 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.678100 ms  DeleteObjects: 0.062400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 1.562200 ms (FindLiveObjects: 0.131500 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.359100 ms  DeleteObjects: 0.042000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -361,3 +1657,376 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 1.705600 ms (FindLiveObjects: 0.164700 ms CreateObjectMapping: 0.030200 ms MarkObjects: 1.465700 ms  DeleteObjects: 0.044300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 1.558000 ms (FindLiveObjects: 0.120900 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.362400 ms  DeleteObjects: 0.041500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 1.662800 ms (FindLiveObjects: 0.135300 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.446300 ms  DeleteObjects: 0.048600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 2.136200 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.853200 ms  DeleteObjects: 0.049200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 1.729500 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.495700 ms  DeleteObjects: 0.048300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1907.
+Total: 1.656500 ms (FindLiveObjects: 0.144600 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.431900 ms  DeleteObjects: 0.045800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 2.239600 ms (FindLiveObjects: 0.137900 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.935200 ms  DeleteObjects: 0.133400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 1.611000 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.388700 ms  DeleteObjects: 0.042600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 1.866000 ms (FindLiveObjects: 0.152500 ms CreateObjectMapping: 0.038500 ms MarkObjects: 1.619500 ms  DeleteObjects: 0.054200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1919.
+Total: 1.567300 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.367600 ms  DeleteObjects: 0.039500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 1.817500 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.522500 ms  DeleteObjects: 0.055500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.857 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 2.072900 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.774000 ms  DeleteObjects: 0.049500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
