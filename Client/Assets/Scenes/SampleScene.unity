@@ -123,6 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &343453457 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4755550078129962397, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+  m_PrefabInstance: {fileID: 4755550077915060423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &343453461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343453457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80586ae2414a0840bf9c6145e5e3f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &397116982
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +150,6 @@ GameObject:
   m_Component:
   - component: {fileID: 397116984}
   - component: {fileID: 397116983}
-  - component: {fileID: 397116985}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -167,18 +183,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &397116985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397116982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56a9d082009ee8c409105cc5a6d0b722, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &508984960
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,8 +195,9 @@ GameObject:
   - component: {fileID: 508984963}
   - component: {fileID: 508984962}
   - component: {fileID: 508984961}
+  - component: {fileID: 508984965}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,6 +285,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &508984965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508984960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80586ae2414a0840bf9c6145e5e3f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,7 +1109,19 @@ PrefabInstance:
     - target: {fileID: 1667575792608559290, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 397116985}
+      objectReference: {fileID: 508984965}
+    - target: {fileID: 1667575792608559290, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667575792608559290, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UI_Button, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599131190045950559, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_Name
+      value: Buy
+      objectReference: {fileID: 0}
     - target: {fileID: 4015218553662494908, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1109,6 +1138,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4558574013615461860, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_Name
+      value: Buy
+      objectReference: {fileID: 0}
     - target: {fileID: 4755550078129962396, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1124,6 +1157,10 @@ PrefabInstance:
     - target: {fileID: 4755550078129962396, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755550078227664904, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_Name
+      value: 0(Reroll)
       objectReference: {fileID: 0}
     - target: {fileID: 4755550078227664919, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1230,17 +1267,61 @@ PrefabInstance:
       value: Shop
       objectReference: {fileID: 0}
     - target: {fileID: 4755550078971742068, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755550078971742068, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755550078971742068, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 397116985}
+      objectReference: {fileID: 508984965}
+    - target: {fileID: 4755550078971742068, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755550078971742068, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755550078971742068, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UI_Button, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755550078971742068, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755550078971742070, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_Name
+      value: Buy
+      objectReference: {fileID: 0}
     - target: {fileID: 4755550079271637957, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 397116985}
+      objectReference: {fileID: 508984965}
+    - target: {fileID: 4755550079271637957, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Roll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755550079271637957, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UI_Button, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5459395117330547345, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 397116985}
+      objectReference: {fileID: 508984965}
+    - target: {fileID: 5459395117330547345, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5459395117330547345, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UI_Button, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5544798038450890462, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1272,11 +1353,23 @@ PrefabInstance:
     - target: {fileID: 6093442815992019720, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6851681965308660082, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_Name
+      value: Buy
       objectReference: {fileID: 0}
     - target: {fileID: 7375589931360897308, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 397116985}
+      objectReference: {fileID: 508984965}
+    - target: {fileID: 7375589931360897308, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375589931360897308, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UI_Button, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7894891823708652366, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1296,6 +1389,18 @@ PrefabInstance:
     - target: {fileID: 8001694007772813867, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 397116985}
+      objectReference: {fileID: 508984965}
+    - target: {fileID: 8001694007772813867, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8001694007772813867, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UI_Button, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8346937934947619157, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}
+      propertyPath: m_Name
+      value: Buy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92b3e294e13700843a11d48c0d4f205a, type: 3}

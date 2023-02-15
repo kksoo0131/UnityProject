@@ -14,24 +14,29 @@ public enum Units
     Bandit,
 }
 
-public class UnitManager : MonoBehaviour
+public class UnitManager
 {
     GameObject Hand;
-    Dictionary<int, Units> _hand = new Dictionary<int, Units>();
+    public Dictionary<int, Units> _handList = new Dictionary<int, Units>();
 
     GameObject Shop;
-    List<Units> _shopList = new List<Units>();
+    public List<Units> _shopList = new List<Units>();
 
     GameObject Info;
     
 
-    public void Start()
+    public void Init()
     {
-        Hand = GameObject.Find("Hand");
-        Shop = GameObject.Find("Shop");
-        Info = GameObject.Find("Unit_Information");
-        Info.SetActive(false);
-        Roll();
+        if (Hand == null)
+            Hand = GameObject.Find("Hand");
+        if (Shop == null)
+            Shop = GameObject.Find("Shop");
+        if (Info == null)
+        {
+            Info = GameObject.Find("Unit_Information");
+            Info.SetActive(false);
+        }
+            
     }
 
     public void Update()
@@ -42,51 +47,12 @@ public class UnitManager : MonoBehaviour
         }
     }
 
-    // 상점목록을 갱신한다.
-    public void Roll()
-    {
-        // 리스트를 Roll
-        _shopList.Clear();
-        for (int i = 0; i < 5; i++)
-        {
-            // 유니티에서 제공하는 랜덤함수 Random.Range(min,max)
-            int rand = UnityEngine.Random.Range(1, 6);
-            _shopList.Add((Units)rand);
-
-            ShopRenew(i);
-        }
-
-        UnitInfoClose();
-
-
-    }
-
-    // 상점에서 유닛을 구매
-    public void Buy(int index)
-    {
-        if (_hand.Count >= 9 || _shopList[index] == 0)
-            return;
-
-        AddHand(index);
-        _shopList[index] = Units.Null;
-        ShopRenew(index);
-
-        UnitInfoClose();
-    }
-
-    // 유닛 판매
-    public void Sell(GameObject selected)
-    {
-        _hand.Remove(Convert.ToInt32(selected.transform.parent.name) - 1);
-        UnityEngine.Object.Destroy(selected);
-
-        UnitInfoClose();
-
-    }
-
     // 상점 이미지 교체
-    void ShopRenew(int index)
-    {  
+    public void ShopRenew(int index)
+    {
+        if(Shop == null)
+            Init();
+        
         Image bn = Shop.transform.GetChild(index + 1).GetChild(0).GetComponent<Image>();
         // 이부분은 나중에
         // Units에 따라 해당 이미지로 이미지를 변경
@@ -115,15 +81,15 @@ public class UnitManager : MonoBehaviour
     }
 
     // 핸드에 유닛 오브젝트 생성
-    void AddHand(int index)
+    public void AddHand(int index)
     {
         for (int i = 0; i < 9; i++)
         {
-            if (!_hand.ContainsKey(i))
+            if (!_handList.ContainsKey(i))
             {
-                _hand.Add(i, _shopList[index]);
+                _handList.Add(i, _shopList[index]);
                 Transform parent = Hand.transform.GetChild(i);
-                GameObject prefab = Resources.Load<GameObject>($"Prefabs/{_hand[i]}");
+                GameObject prefab = Resources.Load<GameObject>($"Prefabs/{_handList[i]}");
                 UnityEngine.Object.Instantiate(prefab, parent);
                 return;
             }
@@ -138,12 +104,13 @@ public class UnitManager : MonoBehaviour
     {
         Info.transform.position = new Vector3(mousepos.x + 30, mousepos.y + 50, mousepos.z);
         Info.SetActive(true);
-        Info.transform.GetChild(2).GetComponent<Button>().onClick.AddListener(() => Sell(selected));
-
+        Text[] texts = Info.transform.GetComponentsInChildren<Text>();
+        texts[0].text = selected.name;
+        Info.GetComponentInChildren<Button>().onClick.AddListener(() => Info.GetComponentInParent<UI_Button>().Sell(selected));
     }
 
     // 유닛 정보창 닫기
-    void UnitInfoClose()
+    public void UnitInfoClose()
     {
         Info.transform.GetChild(2).GetComponent<Button>().onClick.RemoveAllListeners();
         Info.SetActive(false);
