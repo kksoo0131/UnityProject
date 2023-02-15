@@ -1,0 +1,190 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
+public enum Units
+{
+    Null,
+    Knight,
+    Wizard,
+    Warrior,
+    Archer,
+    Bandit,
+}
+
+public class UnitManager : MonoBehaviour
+{
+    GameObject Hand;
+    Dictionary<int, Units> _hand = new Dictionary<int, Units>();
+
+    GameObject Shop;
+    List<Units> _shopList = new List<Units>();
+
+    GameObject Info;
+    
+
+    public void Start()
+    {
+        Hand = GameObject.Find("Hand");
+        Shop = GameObject.Find("Shop");
+        Info = GameObject.Find("Unit_Information");
+        Info.SetActive(false);
+        Roll();
+    }
+
+    public void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            SelectUnit();
+        }
+    }
+
+    // 상점목록을 갱신한다.
+    public void Roll()
+    {
+        // 리스트를 Roll
+        _shopList.Clear();
+        for (int i = 0; i < 5; i++)
+        {
+            // 유니티에서 제공하는 랜덤함수 Random.Range(min,max)
+            int rand = UnityEngine.Random.Range(1, 6);
+            _shopList.Add((Units)rand);
+
+            ShopRenew(i);
+        }
+
+        UnitInfoClose();
+
+
+    }
+
+    // 상점에서 유닛을 구매
+    public void Buy(int index)
+    {
+        if (_hand.Count >= 9 || _shopList[index] == 0)
+            return;
+
+        AddHand(index);
+        _shopList[index] = Units.Null;
+        ShopRenew(index);
+
+        UnitInfoClose();
+    }
+
+    // 유닛 판매
+    public void Sell(GameObject selected)
+    {
+        _hand.Remove(Convert.ToInt32(selected.transform.parent.name) - 1);
+        UnityEngine.Object.Destroy(selected);
+
+        UnitInfoClose();
+
+    }
+
+    // 상점 이미지 교체
+    void ShopRenew(int index)
+    {  
+        Image bn = Shop.transform.GetChild(index + 1).GetChild(0).GetComponent<Image>();
+        // 이부분은 나중에
+        // Units에 따라 해당 이미지로 이미지를 변경
+        switch (_shopList[index])
+        {
+            case Units.Null:
+                bn.color = Color.green;
+                break;
+            case Units.Knight:
+                bn.color = Color.blue;
+                break;
+            case Units.Wizard:
+                bn.color = Color.black;
+                break;
+            case Units.Warrior:
+                bn.color = Color.red;
+                break;
+            case Units.Archer:
+                bn.color = Color.yellow;
+                break;
+            case Units.Bandit:
+                bn.color = Color.cyan;
+                break;
+        }
+
+    }
+
+    // 핸드에 유닛 오브젝트 생성
+    void AddHand(int index)
+    {
+        for (int i = 0; i < 9; i++)
+        {
+            if (!_hand.ContainsKey(i))
+            {
+                _hand.Add(i, _shopList[index]);
+                Transform parent = Hand.transform.GetChild(i);
+                GameObject prefab = Resources.Load<GameObject>($"Prefabs/{_hand[i]}");
+                UnityEngine.Object.Instantiate(prefab, parent);
+                return;
+            }
+        }
+        
+        
+
+    }
+
+    // 유닛 정보창 열기
+    void UnitInfo(Vector3 mousepos, GameObject selected)
+    {
+        Info.transform.position = new Vector3(mousepos.x + 30, mousepos.y + 50, mousepos.z);
+        Info.SetActive(true);
+        Info.transform.GetChild(2).GetComponent<Button>().onClick.AddListener(() => Sell(selected));
+
+    }
+
+    // 유닛 정보창 닫기
+    void UnitInfoClose()
+    {
+        Info.transform.GetChild(2).GetComponent<Button>().onClick.RemoveAllListeners();
+        Info.SetActive(false);
+    }
+
+
+    // 나중에 InputManager로 빼야됨
+    void SelectUnit()
+    {
+        // screen상에서 찍은 마우스의 위치 Camera.main.nearClipPlane = 카메라에서 screen까지의 거리
+        Vector3 screen_mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane);
+        // screen상에 있는 마우스의 좌표를 world좌표로 환산.
+        Vector3 world_mousePos = Camera.main.ScreenToWorldPoint(screen_mousePos);
+        // 카메라에서 마우스로 찍은 월드좌표까지의 거리
+        Vector3 dir = world_mousePos - Camera.main.transform.position;
+        // 방향만 추출
+        dir = dir.normalized;
+
+        RaycastHit hit;
+
+        // 카메라에서 dir방향(마우스로 찍은 좌표의 방향)으로 Raycast
+        if (Physics.Raycast(Camera.main.transform.position, dir, out hit, 100f))
+        {
+            // EventSystem.current.IsPointerOverGameObject()
+            // 마우스가 UI를 가르킨다면 return
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
+
+            if (hit.collider.gameObject.tag == "Unit")
+            {
+                UnitInfoClose();
+                UnitInfo(screen_mousePos, hit.collider.gameObject);
+            }
+            else
+            {
+                UnitInfoClose();
+            }
+
+
+        }
+
+    }
+
+}
